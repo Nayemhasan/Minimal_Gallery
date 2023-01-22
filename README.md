@@ -1,5 +1,5 @@
-## Minimal_Gallery
+## Minimal Gallery
 
  A single page satic site Made with JS, CSS and advance HTML tags and animations
 
-> it's live now, [CST TREE]https://nayemhasan.github.io/Minimal_Gallery/)
+> it's live now, [Minimal Gallery](https://nayemhasan.github.io/Minimal_Gallery/)
