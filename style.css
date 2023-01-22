@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(10, 10, 10);
+    height: 100vh;  
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  #gallery {
+    height: 120vmax;
+    width: 120vmax;  
+    position: absolute;
+  }
+  
+  .tile {
+    border-radius: 1vmax;
+    position: absolute;
+    transition: transform 800ms ease;
+  }
+  
+  .tile:hover {
+    transform: scale(1.1);
+  }
+  
+  .tile:hover > img {
+    opacity: 1;
+    transform: scale(1.01);
+  }
+  
+  .tile > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 800ms ease,
+      transform 800ms ease;
+  }
+  
+  .tile:nth-child(1) {
+    background-color: rgb(201, 215, 102);
+    height: 14%;
+    width: 20%;
+    left: 15%;
+    top: 15%;
+  }
+  
+  .tile:nth-child(2) {
+    background-color: rgb(255, 162, 80);
+    height: 24%;
+    width: 14%;
+    left: 40%;
+    top: 12%;
+  }
+  
+  .tile:nth-child(3) {
+    background-color: rgb(193, 43, 37);
+    height: 18%;
+    width: 16%;
+    left: 10%;
+    top: 35%;
+  }
+  
+  .tile:nth-child(4) {
+    background-color: rgb(198, 97, 85);
+    height: 18%;
+    width: 12%;
+    left: 32%;
+    top: 40%;
+  }
+  
+  .tile:nth-child(5) {
+    background-color: rgb(164, 17, 79);
+    height: 16%;
+    width: 32%;
+    left: 15%;
+    top: 62%;
+  }
+  
+  .tile:nth-child(6) {
+    background-color: rgb(130, 32, 124);
+    height: 24%;
+    width: 24%;
+    left: 60%;
+    top: 10%;
+  }
+  
+  .tile:nth-child(7) {
+    background-color: rgb(58, 63, 166);
+    height: 16%;
+    width: 20%;
+    left: 50%;
+    top: 40%;
+  }
+  
+  .tile:nth-child(8) {
+    background-color: rgb(112, 126, 253);
+    height: 24%;
+    width: 18%;
+    left: 75%;
+    top: 38%;
+  }
+  
+  .tile:nth-child(9) {
+    background-color: rgb(241, 241, 241);
+    height: 28%;
+    width: 20%;
+    left: 50%;
+    top: 60%;
+  }
+  
